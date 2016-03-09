@@ -41,7 +41,7 @@
  else  
  {  
       $output .= '<tr>  
-                          <td colspan="4">Data not Found</td>  
+                          <td colspan="6">Data not Found</td>  
                      </tr>';  
  }  
  $output .= '</table>  
