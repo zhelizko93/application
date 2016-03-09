@@ -1,5 +1,5 @@
 <?php  
- $connect = mysqli_connect("localhost", "root", "", "db");  
+ $connect = mysqli_connect("us-cdbr-iron-east-03.cleardb.net", "b3de81240f1c9a", "14968ae3", "heroku_0ecd36cb29eac01");
  $output = '';  
  $sql = "SELECT o.id, o.title, o.estimated_earnings, o.pid, (SELECT ROUND(SUM(o1.estimated_earnings)+o.estimated_earnings,2) FROM company o1 WHERE o1.pid=o.id) total FROM company o ORDER BY o.id";  
  $result = mysqli_query($connect, $sql);  
