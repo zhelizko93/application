@@ -38,13 +38,7 @@
            </tr>  
       ';  
  }  
- else  
- {  
-      $output .= '<tr>  
-                          <td colspan="5">Data not Found</td>  
-                          <td><button type="button" name="btn_add" id="btn_add" class="btn btn-xs btn-success">+</button></td> 
-                     </tr>';  
- }  
+ 
  $output .= '</table>  
       </div>';  
  echo $output;  
