@@ -22,7 +22,7 @@
                      <td class="title" data-id1="'.$row["id"].'" contenteditable>'.$row["title"].'</td>  
                      <td class="estimated_earnings" data-id2="'.$row["id"].'" contenteditable>'.$row["estimated_earnings"].'</td>  
                      <td class="pid" data-id3="'.$row["id"].'" contenteditable>'.$row["pid"].'</td>
-                     <td class="total" data-id4="'.$row["id"].'" contenteditable>'.$row["total"].'</td>
+                     <td class="total" data-id4="'.$row["id"].'">'.$row["total"].'</td>
                      <td><button type="button" name="delete_btn" data-id5="'.$row["id"].'" class="btn btn-xs btn-danger btn_delete">x</button></td>  
                 </tr>  
            ';  
